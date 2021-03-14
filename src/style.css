@@ -1,0 +1,19 @@
+/*font-family: 'Farsan', cursive;
+font-family: 'Sulphur Point', sans-serif;*/
+
+body{
+    border: 8px solid #000;
+    margin: 10px;
+}
+
+h1{
+    font-family: 'Farsan', cursive;
+ 
+}
+
+h2{
+       font-family: 'Sulphur Point', sans-serif;
+       font-size: 18px;
+}
+
+
