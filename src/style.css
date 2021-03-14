@@ -1,12 +1,3 @@
-/*font-family: 'Farsan', cursive;
-font-family: 'Sulphur Point', sans-serif;*/
-
-body{
-   /* border: 8px solid #000;
-    margin: 10px;
-    padding: 10px;*/
-}
-
 .hero{
     background: #dddddd;
     padding: 160px 20px;
@@ -14,12 +5,16 @@ body{
 }
 
 .hero h1{
-      font-family: "Playfair Display", serif;
     font-size: 96px;
+}
+
+ h1{
+      font-family: "Playfair Display", serif;
+    font-size: 64px;
  
 }
 
-.hero h2{
+ h2{
         font-family: "Poppins", sans-serif;
        font-size: 36px;
        font-weight: 700;
@@ -34,16 +29,59 @@ body{
      margin: 20px;
 }
 
-.hero .btn-start{
-    background: #f25287;
-    color: #fff;
-    border-radius: 4px;
+
+.btn{
+   border-radius: 4px;
     padding: 18px 30px;
     margin: 30px;
     font-size: 18px;
     font-family: "Poppins", sans-serif;
-   
-
 }
 
+.btn-start{
+    background: #f25287;
+    color: #f9f3f3;
+ 
+}
 
+p{
+    font-size: 18px;
+     font-family: "Poppins", sans-serif;
+     color: #272142;
+     line-height: 1.5;
+}
+
+.project-description{
+    padding: 120px 60px
+}
+
+.btn-learn-more{
+    border-color: #f25287;
+    color: #f25287;
+}
+
+@media (max-width:900px){
+   
+    .hero{
+        padding: 80px 20px;
+    }
+
+    .hero h1{
+        font-size: 40px;
+    }
+    h2{
+        font-size: 30px;
+    }
+    .hero p{
+        font-size: 16px;
+    }
+
+    h1{
+        font-size: 44px;
+    }
+   
+    .project-description{
+        text-align: center;
+        padding: 0;
+    }
+}
