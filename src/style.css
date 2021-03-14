@@ -29,18 +29,14 @@
      margin: 20px;
 }
 
-
-.btn{
-   border-radius: 4px;
+.btn-start{
+    background: #f25287;
+    color: #f9f3f3;
+     border-radius: 4px;
     padding: 18px 30px;
     margin: 30px;
     font-size: 18px;
     font-family: "Poppins", sans-serif;
-}
-
-.btn-start{
-    background: #f25287;
-    color: #f9f3f3;
  
 }
 
@@ -58,6 +54,11 @@ p{
 .btn-learn-more{
     border-color: #f25287;
     color: #f25287;
+     border-radius: 4px;
+    padding: 18px 30px;
+    font-size: 18px;
+    font-family: "Poppins", sans-serif;
+
 }
 
 @media (max-width:900px){
