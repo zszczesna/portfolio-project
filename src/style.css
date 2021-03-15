@@ -32,7 +32,7 @@
 .btn-start{
     background: #f25287;
     color: #f9f3f3;
-     border-radius: 4px;
+    border-radius: 4px;
     padding: 18px 30px;
     margin: 30px;
     font-size: 18px;
@@ -61,6 +61,31 @@ p{
 
 }
 
+.about{
+    padding: 160px 20px;
+}
+
+.about-text{
+    margin: 30px;
+}
+
+.about-text h2{
+    font-size: 18px;
+}
+
+
+.about-text p{
+    font-size: 16px;
+    line-height: 2;
+    font-weight: normal;
+}
+
+.about-text .btn-start{
+    margin: 0;
+}
+
+
+
 @media (max-width:900px){
    
     .hero{
@@ -84,5 +109,19 @@ p{
     .project-description{
         text-align: center;
         padding: 0;
+    }
+
+    .about{
+        text-align: center;
+        padding: 30px;
+    }
+
+    .about h1{
+        font-size: 64px;
+    }
+
+    .about-text{
+        margin: 0;
+        margin-bottom: 30px;
     }
 }
