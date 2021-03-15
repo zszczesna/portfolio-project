@@ -11,6 +11,7 @@
  h1{
       font-family: "Playfair Display", serif;
     font-size: 64px;
+    color: #000;
  
 }
 
@@ -84,6 +85,30 @@ p{
     margin: 0;
 }
 
+.work{
+    padding: 180px 140px;
+}
+
+.work h1{
+    line-height: 1.5;
+
+}
+
+.work-display{
+    margin-bottom: 80px;
+}
+
+.work-display img{
+    border-radius: 20px;
+}
+
+.work-display h3{
+    font-weight: 900;
+}
+
+.work-display p{
+    font-size: 14px;
+}
 
 
 @media (max-width:900px){
@@ -116,12 +141,17 @@ p{
         padding: 30px;
     }
 
-    .about h1{
+    .about h1, .work h1{
         font-size: 64px;
     }
 
     .about-text{
         margin: 0;
         margin-bottom: 30px;
+    }
+
+    .work{
+        text-align: center;
+        padding: 80px 20px;
     }
 }
