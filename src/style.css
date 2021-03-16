@@ -180,4 +180,8 @@ nav li a:hover, nav li a.active{
         text-align: center;
         padding: 80px 20px;
     }
+
+    nav li{
+        margin-left: 5px;
+    }
 }
