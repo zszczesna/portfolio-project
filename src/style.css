@@ -1,31 +1,37 @@
-.hero{
-    background: #dddddd;
-    padding: 160px 20px;
-    text-align: center;
-}
-
-.hero h1{
-    font-size: 96px;
-}
-
  h1{
-      font-family: "Playfair Display", serif;
+    font-family: "Playfair Display", serif;
     font-size: 64px;
     color: #000;
  
 }
 
  h2{
-        font-family: "Poppins", sans-serif;
+       font-family: "Poppins", sans-serif;
        font-size: 36px;
        font-weight: 700;
        margin: 0;
        color: #272142;
 }
 
-.hero p{
+p{
+     font-size: 18px;
      font-family: "Poppins", sans-serif;
      color: #272142;
+     line-height: 1.5;
+}
+
+.hero{
+    background: #dddddd;
+    padding: 160px 20px;
+    text-align: center;
+}
+
+
+.hero h1{
+    font-size: 96px;
+}
+
+.hero p{
      font-size: 24px;
      margin: 20px;
 }
@@ -39,13 +45,6 @@
     font-size: 18px;
     font-family: "Poppins", sans-serif;
  
-}
-
-p{
-    font-size: 18px;
-     font-family: "Poppins", sans-serif;
-     color: #272142;
-     line-height: 1.5;
 }
 
 .project-description{
@@ -85,34 +84,67 @@ p{
     margin: 0;
 }
 
-.work{
+.case{
     padding: 180px 140px;
 }
 
-.work h1{
+.case h1{
     line-height: 1.5;
 
 }
 
-.work-display{
+.case-display{
     margin-bottom: 80px;
 }
 
-.work-display img{
+.case-display img{
     border-radius: 20px;
 }
 
-.work-display h3{
+.case-display h3{
     font-weight: 900;
 }
 
-.work-display p{
+.case-display p{
     font-size: 14px;
+}
+
+
+nav img{
+    max-height: 40px;
+    margin-top: 8px;
+}
+
+nav ul{
+    margin: 0;
+    padding: 0;
+}
+
+nav li{
+    list-style: none;
+    display: inline;
+    font-family: "Poppins", sans-serif;
+    margin-left: 15px;
+    line-height: 3.5;
+}
+
+nav li a{
+    text-decoration: none;
+    color: #212529;
+    transition: all 100ms ease-in-out;
+}
+
+nav li a:hover, nav li a.active{
+    color:#f25287;
 }
 
 
 @media (max-width:900px){
    
+     h2{
+        font-size: 30px;
+    }
+    
     .hero{
         padding: 80px 20px;
     }
@@ -120,15 +152,9 @@ p{
     .hero h1{
         font-size: 40px;
     }
-    h2{
-        font-size: 30px;
-    }
+   
     .hero p{
         font-size: 16px;
-    }
-
-    h1{
-        font-size: 44px;
     }
    
     .project-description{
@@ -150,7 +176,7 @@ p{
         margin-bottom: 30px;
     }
 
-    .work{
+    .case{
         text-align: center;
         padding: 80px 20px;
     }
