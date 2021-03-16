@@ -138,6 +138,55 @@ nav li a:hover, nav li a.active{
     color:#f25287;
 }
 
+footer .email-link{
+    display: flex;
+    justify-content: center;
+  
+}
+
+footer .email-link a{
+      color: black;
+    text-decoration: none;
+    font-family: "Poppins", sans-serif;
+    font-size: 24px;
+}
+
+footer .social-links{
+    display: flex;
+    justify-content: center;
+
+}
+
+footer .social-links a{
+    font-size: 18px;
+    padding: 10px 14px;
+    margin: 0 20px;
+    color: #f25287;
+    border-radius: 50%;
+    transition: all 100ms ease-in-out;
+    background: #dddddd;
+}
+
+footer .social-links a:hover{
+    color: #dddddd;
+    background: #f25287;
+}
+
+footer .contact-box{
+    background: #dddddd;
+    padding: 30px 120px;
+    border-radius: 10px;
+}
+
+footer .contact-box h3{
+    color: black;
+    font-family: "Playfair Display", serif;
+    font-size: 48px;
+}
+
+footer .contact-box p{
+    margin: 0;
+}
 
 @media (max-width:900px){
    
