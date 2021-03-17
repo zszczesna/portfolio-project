@@ -21,7 +21,7 @@ p{
 }
 
 .hero{
-    background: #dddddd;
+    background: #f9f7fe;
     padding: 160px 20px;
     text-align: center;
 }
@@ -37,7 +37,7 @@ p{
 }
 
 .btn-start{
-    background: #f25287;
+    background:#fd0054;
     color: #f9f3f3;
     border-radius: 4px;
     padding: 18px 30px;
@@ -52,8 +52,8 @@ p{
 }
 
 .btn-learn-more{
-    border-color: #f25287;
-    color: #f25287;
+    border-color: #fd0054;
+    color: #fd0054;
      border-radius: 4px;
     padding: 18px 30px;
     font-size: 18px;
@@ -109,6 +109,9 @@ p{
     font-size: 14px;
 }
 
+span{
+    color: #fd0054;
+}
 
 nav img{
     max-height: 40px;
@@ -135,7 +138,7 @@ nav li a{
 }
 
 nav li a:hover, nav li a.active{
-    color:#f25287;
+    color:#fd0054;
 }
 
 footer .email-link{
@@ -161,19 +164,19 @@ footer .social-links a{
     font-size: 18px;
     padding: 10px 14px;
     margin: 0 20px;
-    color: #f25287;
+    color: #fd0054;
     border-radius: 50%;
     transition: all 100ms ease-in-out;
-    background: #dddddd;
+    background: #f9f7fe;
 }
 
 footer .social-links a:hover{
-    color: #dddddd;
-    background: #f25287;
+    color: #f9f7fe;
+    background: #fd0054;
 }
 
 footer .contact-box{
-    background: #dddddd;
+    background: #f9f7fe;
     padding: 30px 120px;
     border-radius: 10px;
 }
